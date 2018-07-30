@@ -33,10 +33,7 @@ $( document ).ready(function() {
                 else {
                     var tempCard = $('#card' + playerHoleNum);
                     var playerImage = 'http://i.cdn.turner.com/dr/golf/golfm/release/sites/rydercup/files/2016/headshots/300x225/'+ player.id.toString() +'.jpg'
-                    // '<div class="img-circular-container"><img src="' + playerImage + '" alt=""></div>'+'<h4>'+player.firstName+" "+player.lastName+'</h4>'
-                    // console.log(playerImage);
                     var playerContent = '<div class="img-circular-container" style="background-image:url('+playerImage+');"></div>'+'<h4>'+player.firstName+" "+player.lastName+'</h4>';
-                    console.log(playerContent);
                     var playerCard = $('<div/>', {
                         class: 'player-card',
                         html: playerContent
