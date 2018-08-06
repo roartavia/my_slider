@@ -1,38 +1,40 @@
 /* Fonts needed*/
 @font-face{
     font-family: "Univers";
-    src:url("/fonts/Univers-Fonts/Univers.eot?#iefix");
-    src:url("/fonts/Univers-Fonts/Univers.eot?#iefix") format("eot"),url("/c159c348-b4f9-4634-82ed-409f0038fe5b.woff2") format("woff2"),url("/20f399e2-7a5a-4bd9-ba8f-82021e260e62.woff") format("woff"),url("/62078784-183d-41bd-a575-921cfabe4ea4.ttf") format("truetype");
+    src:url("/fonts/Univers.ttf?#iefix");
 }
-
+@font-face{
+    font-family: "Univers Bold";
+    src:url("/fonts/Univers-Bold.ttf?#iefix");
+}
 body {
   background:#000;
 }
-img {
+/* img {
     width: 100%;
-}
+} */
 .main {
   font-family: Univers;
   display:block;
   margin:0 auto;
 }
 .hero {
-    width: 100%;
-    height: 50vh;
+    width: 100vw;
+    height: 100vw;
     position: absolute;
-    top: -35px;
-    background-image: url('/images/cut_maps.jpg');
-    background-size: contain;
+    top: 0;
+    background-image: url('/images/Map/Player_Locator_Map.jpg');
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 .slick-slider {
-    margin-top: 35vh;
+    margin-top: 64vw;
 }
 /* card - slide */
 .card {
     background-color: white;
-    width: 280px;
-    height: 267px;
+    height: 74vw;
     margin-left: 5px;
     margin-right: 5px;
     border-radius: 2px;
@@ -48,9 +50,11 @@ img {
     font-size: 1.125rem;
     align-self: center;
     position: absolute;
+    color: #002855;
     left: 14px;
 }
 .card-header h3 {
+    color: #4D4847;
     font-size: 0.625rem;
     align-self: center;
     position: absolute;
@@ -65,10 +69,8 @@ img {
 }
 /* player card */
 .player-card {
-    -ms-flex: 0 0 22%;
-    flex: 0 0 22%;
-    max-width: 300px;
-    padding: 0 15px;
+    -ms-flex: 0 0 33%;
+    flex: 0 0 33%;
     padding-top: 12px;
 }
 .img-circular-container {
@@ -83,7 +85,310 @@ img {
     background-repeat: no-repeat;
 }
 .player-card h4 {
+    color: #4D4847;
     font-size: 0.625rem;
     text-align: center;
     margin-top: 6px;
 }
+.action a {
+    color: white;
+    text-decoration: none;
+}
+.no-players {
+    margin: auto;
+    margin-top: 25vw;
+}
+.no-players span {
+    font-size: 1rem;
+    color: #4D4847;
+    letter-spacing: 0.0417rem;
+}
+#link-card-1 {
+    position: absolute;
+    top: 40vw;
+    left: 29vw;
+    width: 21px;
+    height: 21px;
+    display: block;
+    background-image: url('/images/Hole_Indicators_Off/1@3x.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#link-card-1.is-selected {
+    background-image: url('/images/Hole_Indicators_On/1@3x.png');
+}
+#link-card-2 {
+    position: absolute;
+    top: 27vw;
+    left: 56vw;
+    width: 21px;
+    height: 21px;
+    display: block;
+    background-image: url('/images/Hole_Indicators_Off/2@3x.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#link-card-2.is-selected {
+    background-image: url('/images/Hole_Indicators_On/2@3x.png');
+}
+#link-card-3 {
+    position: absolute;
+    top: 24vw;
+    left: 73vw;
+    width: 21px;
+    height: 21px;
+    display: block;
+    background-image: url('/images/Hole_Indicators_Off/3@3x.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#link-card-3.is-selected {
+    background-image: url('/images/Hole_Indicators_On/3@3x.png');
+}
+#link-card-4 {
+    position: absolute;
+    top: 36vw;
+    left: 64vw;
+    width: 21px;
+    height: 21px;
+    display: block;
+    background-image: url('/images/Hole_Indicators_Off/4@3x.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#link-card-4.is-selected {
+    background-image: url('/images/Hole_Indicators_On/4@3x.png');
+}
+#link-card-5 {
+    position: absolute;
+    top: 47vw;
+    left: 52vw;
+    width: 21px;
+    height: 21px;
+    display: block;
+    background-image: url('/images/Hole_Indicators_Off/5@3x.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#link-card-5.is-selected {
+    background-image: url('/images/Hole_Indicators_On/5@3x.png');
+}
+#link-card-6 {
+    position: absolute;
+    top: 57vw;
+    left: 42vw;
+    width: 21px;
+    height: 21px;
+    display: block;
+    background-image: url('/images/Hole_Indicators_Off/6@3x.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#link-card-6.is-selected {
+    background-image: url('/images/Hole_Indicators_On/6@3x.png');
+}
+#link-card-7 {
+    position: absolute;
+    top: 36vw;
+    left: 52vw;
+    width: 21px;
+    height: 21px;
+    display: block;
+    background-image: url('/images/Hole_Indicators_Off/7@3x.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#link-card-7.is-selected {
+    background-image: url('/images/Hole_Indicators_On/7@3x.png');
+}
+#link-card-8 {
+    position: absolute;
+    top: 45vw;
+    left: 40vw;
+    width: 21px;
+    height: 21px;
+    display: block;
+    background-image: url('/images/Hole_Indicators_Off/8@3x.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#link-card-8.is-selected {
+    background-image: url('/images/Hole_Indicators_On/8@3x.png');
+}
+#link-card-9 {
+    position: absolute;
+    top: 52vw;
+    left: 29vw;
+    width: 21px;
+    height: 21px;
+    display: block;
+    background-image: url('/images/Hole_Indicators_Off/9@3x.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#link-card-9.is-selected {
+    background-image: url('/images/Hole_Indicators_On/9@3x.png');
+}
+#link-card-10 {
+    position: absolute;
+    top: 25vw;
+    left: 38vw;
+    width: 21px;
+    height: 21px;
+    display: block;
+    background-image: url('/images/Hole_Indicators_Off/10@3x.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#link-card-10.is-selected {
+    background-image: url('/images/Hole_Indicators_On/10@3x.png');
+}
+#link-card-11 {
+    position: absolute;
+    top: 18vw;
+    left: 63vw;
+    width: 21px;
+    height: 21px;
+    display: block;
+    background-image: url('/images/Hole_Indicators_Off/11@3x.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#link-card-11.is-selected {
+    background-image: url('/images/Hole_Indicators_On/11@3x.png');
+}
+#link-card-12 {
+    position: absolute;
+    top: 25vw;
+    left: 84vw;
+    width: 21px;
+    height: 21px;
+    display: block;
+    background-image: url('/images/Hole_Indicators_Off/12@3x.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#link-card-12.is-selected {
+    background-image: url('/images/Hole_Indicators_On/12@3x.png');
+}
+#link-card-13 {
+    position: absolute;
+    top: 16vw;
+    left: 87vw;
+    width: 21px;
+    height: 21px;
+    display: block;
+    background-image: url('/images/Hole_Indicators_Off/13@3x.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#link-card-13.is-selected {
+    background-image: url('/images/Hole_Indicators_On/13@3x.png');
+}
+#link-card-14 {
+    position: absolute;
+    top: 9vw;
+    left: 79vw;
+    width: 21px;
+    height: 21px;
+    display: block;
+    background-image: url('/images/Hole_Indicators_Off/14@3x.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#link-card-14.is-selected {
+    background-image: url('/images/Hole_Indicators_On/14@3x.png');
+}
+#link-card-15 {
+    position: absolute;
+    top: 11vw;
+    left: 53vw;
+    width: 21px;
+    height: 21px;
+    display: block;
+    background-image: url('/images/Hole_Indicators_Off/15@3x.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#link-card-15.is-selected {
+    background-image: url('/images/Hole_Indicators_On/15@3x.png');
+}
+#link-card-16 {
+    position: absolute;
+    top: 17vw;
+    left: 32vw;
+    width: 21px;
+    height: 21px;
+    display: block;
+    background-image: url('/images/Hole_Indicators_Off/16@3x.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#link-card-16.is-selected {
+    background-image: url('/images/Hole_Indicators_On/16@3x.png');
+}
+#link-card-17 {
+    position: absolute;
+    top: 29vw;
+    left: 16vw;
+    width: 21px;
+    height: 21px;
+    display: block;
+    background-image: url('/images/Hole_Indicators_Off/17@3x.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#link-card-17.is-selected {
+    background-image: url('/images/Hole_Indicators_On/17@3x.png');
+}
+#link-card-18 {
+    position: absolute;
+    top: 39vw;
+    left: 10vw;
+    width: 21px;
+    height: 21px;
+    display: block;
+    background-image: url('/images/Hole_Indicators_Off/18@3x.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#link-card-18.is-selected {
+    background-image: url('/images/Hole_Indicators_On/18@3x.png');
+}
+
+#preloadImage1 {background-image: url('/images/Hole_Indicators_On/1@3x.png');}
+#preloadImage2 {background-image: url('/images/Hole_Indicators_On/2@3x.png');}
+#preloadImage3 {background-image: url('/images/Hole_Indicators_On/3@3x.png');}
+#preloadImage4 {background-image: url('/images/Hole_Indicators_On/4@3x.png');}
+#preloadImage5 {background-image: url('/images/Hole_Indicators_On/5@3x.png');}
+#preloadImage6 {background-image: url('/images/Hole_Indicators_On/6@3x.png');}
+#preloadImage7 {background-image: url('/images/Hole_Indicators_On/7@3x.png');}
+#preloadImage8 {background-image: url('/images/Hole_Indicators_On/8@3x.png');}
+#preloadImage9 {background-image: url('/images/Hole_Indicators_On/9@3x.png');}
+#preloadImage10 {background-image: url('/images/Hole_Indicators_On/10@3x.png');}
+#preloadImage11 {background-image: url('/images/Hole_Indicators_On/11@3x.png');}
+#preloadImage12 {background-image: url('/images/Hole_Indicators_On/12@3x.png');}
+#preloadImage13 {background-image: url('/images/Hole_Indicators_On/13@3x.png');}
+#preloadImage14 {background-image: url('/images/Hole_Indicators_On/14@3x.png');}
+#preloadImage15 {background-image: url('/images/Hole_Indicators_On/15@3x.png');}
+#preloadImage16 {background-image: url('/images/Hole_Indicators_On/16@3x.png');}
+#preloadImage17 {background-image: url('/images/Hole_Indicators_On/17@3x.png');}
+#preloadImage18 {background-image: url('/images/Hole_Indicators_On/18@3x.png');}

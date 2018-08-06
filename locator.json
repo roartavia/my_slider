@@ -1,0 +1,890 @@
+{
+   "player_count":73,
+   "round":4,
+   "group_count":25,
+   "stamp":"2018-06-03T23:59:01.554-0400",
+   "groups":[
+      {
+         "start_time":"9:30 AM",
+         "group_id":1,
+         "current_hole":"1",
+         "starttee":1,
+         "players":[
+            {
+               "score":"-15",
+               "fname":"Bryson",
+               "lname":"DeChambeau",
+               "player_id":"47959",
+               "last_update":"7:02 PM",
+               "mv":0,
+               "marquee":"false"
+            },
+            {
+               "score":"-15",
+               "fname":"Kyle",
+               "lname":"Stanley",
+               "player_id":"30110",
+               "last_update":"7:02 PM",
+               "mv":0,
+               "marquee":"false"
+            },
+            {
+               "score":"-14",
+               "fname":"Patrick",
+               "lname":"Cantlay",
+               "player_id":"35450",
+               "last_update":"7:02 PM",
+               "mv":-2,
+               "marquee":"false"
+            }
+         ],
+         "teeTimeStamp":52200000
+      },
+      {
+         "start_time":"9:20 AM",
+         "group_id":2,
+         "current_hole":"2",
+         "starttee":1,
+         "players":[
+            {
+               "score":"-15",
+               "fname":"Byeong Hun",
+               "lname":"An",
+               "player_id":"33948",
+               "last_update":"7:02 PM",
+               "mv":3,
+               "marquee":"false"
+            },
+            {
+               "score":"-12",
+               "fname":"Joaquin",
+               "lname":"Niemann",
+               "player_id":"45486",
+               "last_update":"7:02 PM",
+               "mv":-4,
+               "marquee":"false"
+            },
+            {
+               "score":"-12",
+               "fname":"Justin",
+               "lname":"Rose",
+               "player_id":"22405",
+               "last_update":"7:02 PM",
+               "mv":0,
+               "marquee":"false"
+            }
+         ],
+         "teeTimeStamp":51600000
+      },
+      {
+         "start_time":"8:10 AM",
+         "group_id":9,
+         "current_hole":"F",
+         "starttee":1,
+         "players":[
+            {
+               "score":"-13",
+               "fname":"Peter",
+               "lname":"Uihlein",
+               "player_id":"29484",
+               "last_update":"7:02 PM",
+               "mv":16,
+               "marquee":"false"
+            },
+            {
+               "score":"-10",
+               "fname":"Henrik",
+               "lname":"Stenson",
+               "player_id":"21528",
+               "last_update":"7:02 PM",
+               "mv":8,
+               "marquee":"false"
+            },
+            {
+               "score":"-6",
+               "fname":"Anirban",
+               "lname":"Lahiri",
+               "player_id":"31420",
+               "last_update":"7:02 PM",
+               "mv":-16,
+               "marquee":"false"
+            }
+         ],
+         "teeTimeStamp":47400000
+      },
+      {
+         "start_time":"7:40 AM",
+         "group_id":12,
+         "current_hole":"F",
+         "starttee":1,
+         "players":[
+            {
+               "score":"-11",
+               "fname":"Dustin",
+               "lname":"Johnson",
+               "player_id":"30925",
+               "last_update":"7:02 PM",
+               "mv":20,
+               "marquee":"false"
+            },
+            {
+               "score":"-9",
+               "fname":"Ryan",
+               "lname":"Armour",
+               "player_id":"19803",
+               "last_update":"7:02 PM",
+               "mv":5,
+               "marquee":"false"
+            },
+            {
+               "score":"-4",
+               "fname":"Jason",
+               "lname":"Day",
+               "player_id":"28089",
+               "last_update":"7:02 PM",
+               "mv":-16,
+               "marquee":"false"
+            }
+         ],
+         "teeTimeStamp":45600000
+      },
+      {
+         "start_time":"8:20 AM",
+         "group_id":8,
+         "current_hole":"F",
+         "starttee":1,
+         "players":[
+            {
+               "score":"-11",
+               "fname":"Justin",
+               "lname":"Thomas",
+               "player_id":"33448",
+               "last_update":"7:02 PM",
+               "mv":13,
+               "marquee":"false"
+            },
+            {
+               "score":"-11",
+               "fname":"Patrick",
+               "lname":"Rodgers",
+               "player_id":"36699",
+               "last_update":"7:02 PM",
+               "mv":13,
+               "marquee":"false"
+            },
+            {
+               "score":"-9",
+               "fname":"Emiliano",
+               "lname":"Grillo",
+               "player_id":"31646",
+               "last_update":"7:02 PM",
+               "mv":-2,
+               "marquee":"false"
+            }
+         ],
+         "teeTimeStamp":48000000
+      },
+      {
+         "start_time":"8:30 AM",
+         "group_id":7,
+         "current_hole":"F",
+         "starttee":1,
+         "players":[
+            {
+               "score":"-11",
+               "fname":"Rickie",
+               "lname":"Fowler",
+               "player_id":"32102",
+               "last_update":"7:02 PM",
+               "mv":13,
+               "marquee":"false"
+            },
+            {
+               "score":"-8",
+               "fname":"Si Woo",
+               "lname":"Kim",
+               "player_id":"37455",
+               "last_update":"7:02 PM",
+               "mv":-18,
+               "marquee":"false"
+            },
+            {
+               "score":"-3",
+               "fname":"Wesley",
+               "lname":"Bryan",
+               "player_id":"48084",
+               "last_update":"7:02 PM",
+               "mv":-41,
+               "marquee":"false"
+            }
+         ],
+         "teeTimeStamp":48600000
+      },
+      {
+         "start_time":"9:00 AM",
+         "group_id":4,
+         "current_hole":"F",
+         "starttee":1,
+         "players":[
+            {
+               "score":"-11",
+               "fname":"Rory",
+               "lname":"McIlroy",
+               "player_id":"28237",
+               "last_update":"7:02 PM",
+               "mv":3,
+               "marquee":"false"
+            },
+            {
+               "score":"-10",
+               "fname":"Hideki",
+               "lname":"Matsuyama",
+               "player_id":"32839",
+               "last_update":"7:02 PM",
+               "mv":-6,
+               "marquee":"false"
+            },
+            {
+               "score":"-8",
+               "fname":"David",
+               "lname":"Lingmerth",
+               "player_id":"34409",
+               "last_update":"7:02 PM",
+               "mv":-18,
+               "marquee":"false"
+            }
+         ],
+         "teeTimeStamp":50400000
+      },
+      {
+         "start_time":"7:30 AM",
+         "group_id":14,
+         "current_hole":"F",
+         "starttee":10,
+         "players":[
+            {
+               "score":"-10",
+               "fname":"Matt",
+               "lname":"Kuchar",
+               "player_id":"23108",
+               "last_update":"7:02 PM",
+               "mv":24,
+               "marquee":"false"
+            },
+            {
+               "score":"-5",
+               "fname":"Alex",
+               "lname":"Cejka",
+               "player_id":"20472",
+               "last_update":"7:02 PM",
+               "mv":-3,
+               "marquee":"false"
+            },
+            {
+               "score":"-2",
+               "fname":"Bill",
+               "lname":"Haas",
+               "player_id":"24924",
+               "last_update":"7:02 PM",
+               "mv":-20,
+               "marquee":"false"
+            }
+         ],
+         "teeTimeStamp":45000000
+      },
+      {
+         "start_time":"7:40 AM",
+         "group_id":15,
+         "current_hole":"F",
+         "starttee":10,
+         "players":[
+            {
+               "score":"-10",
+               "fname":"Tony",
+               "lname":"Finau",
+               "player_id":"29725",
+               "last_update":"7:02 PM",
+               "mv":24,
+               "marquee":"false"
+            },
+            {
+               "score":"-6",
+               "fname":"Luke",
+               "lname":"List",
+               "player_id":"27129",
+               "last_update":"7:02 PM",
+               "mv":0,
+               "marquee":"false"
+            },
+            {
+               "score":"-4",
+               "fname":"Beau",
+               "lname":"Hossler",
+               "player_id":"35461",
+               "last_update":"7:02 PM",
+               "mv":-7,
+               "marquee":"false"
+            }
+         ],
+         "teeTimeStamp":45600000
+      },
+      {
+         "start_time":"7:50 AM",
+         "group_id":11,
+         "current_hole":"F",
+         "starttee":1,
+         "players":[
+            {
+               "score":"-10",
+               "fname":"Phil",
+               "lname":"Mickelson",
+               "player_id":"01810",
+               "last_update":"7:02 PM",
+               "mv":15,
+               "marquee":"false"
+            },
+            {
+               "score":"-9",
+               "fname":"Martin",
+               "lname":"Laird",
+               "player_id":"27936",
+               "last_update":"7:02 PM",
+               "mv":5,
+               "marquee":"false"
+            },
+            {
+               "score":"-3",
+               "fname":"Branden",
+               "lname":"Grace",
+               "player_id":"29974",
+               "last_update":"7:02 PM",
+               "mv":-24,
+               "marquee":"false"
+            }
+         ],
+         "teeTimeStamp":46200000
+      },
+      {
+         "start_time":"8:20 AM",
+         "group_id":19,
+         "current_hole":"F",
+         "starttee":10,
+         "players":[
+            {
+               "score":"-10",
+               "fname":"Louis",
+               "lname":"Oosthuizen",
+               "player_id":"26329",
+               "last_update":"7:02 PM",
+               "mv":39,
+               "marquee":"false"
+            },
+            {
+               "score":"-6",
+               "fname":"Jamie",
+               "lname":"Lovemark",
+               "player_id":"29461",
+               "last_update":"7:02 PM",
+               "mv":15,
+               "marquee":"false"
+            },
+            {
+               "score":"+6",
+               "fname":"Grayson",
+               "lname":"Murray",
+               "player_id":"34213",
+               "last_update":"7:02 PM",
+               "mv":-21,
+               "marquee":"false"
+            }
+         ],
+         "teeTimeStamp":48000000
+      },
+      {
+         "start_time":"8:40 AM",
+         "group_id":6,
+         "current_hole":"3",
+         "starttee":1,
+         "players":[
+            {
+               "score":"-10",
+               "fname":"Tom",
+               "lname":"Hoge",
+               "player_id":"35532",
+               "last_update":"7:02 PM",
+               "mv":-2,
+               "marquee":"false"
+            },
+            {
+               "score":"-9",
+               "fname":"Keegan",
+               "lname":"Bradley",
+               "player_id":"33141",
+               "last_update":"7:02 PM",
+               "mv":-12,
+               "marquee":"false"
+            },
+            {
+               "score":"-8",
+               "fname":"Julian",
+               "lname":"Suri",
+               "player_id":"45478",
+               "last_update":"7:02 PM",
+               "mv":-18,
+               "marquee":"false"
+            }
+         ],
+         "teeTimeStamp":49200000
+      },
+      {
+         "start_time":"8:50 AM",
+         "group_id":5,
+         "current_hole":"F",
+         "starttee":1,
+         "players":[
+            {
+               "score":"-10",
+               "fname":"Ryan",
+               "lname":"Moore",
+               "player_id":"26596",
+               "last_update":"7:02 PM",
+               "mv":-2,
+               "marquee":"false"
+            },
+            {
+               "score":"-10",
+               "fname":"Kiradech",
+               "lname":"Aphibarnrat",
+               "player_id":"30978",
+               "last_update":"7:02 PM",
+               "mv":-2,
+               "marquee":"false"
+            },
+            {
+               "score":"-7",
+               "fname":"Adam",
+               "lname":"Scott",
+               "player_id":"24502",
+               "last_update":"7:02 PM",
+               "mv":-24,
+               "marquee":"false"
+            }
+         ],
+         "teeTimeStamp":49800000
+      },
+      {
+         "start_time":"9:10 AM",
+         "group_id":3,
+         "current_hole":"F",
+         "starttee":1,
+         "players":[
+            {
+               "score":"-10",
+               "fname":"J.B.",
+               "lname":"Holmes",
+               "player_id":"27141",
+               "last_update":"7:02 PM",
+               "mv":-6,
+               "marquee":"false"
+            },
+            {
+               "score":"-9",
+               "fname":"Tiger",
+               "lname":"Woods",
+               "player_id":"08793",
+               "last_update":"7:02 PM",
+               "mv":-16,
+               "marquee":"false"
+            },
+            {
+               "score":"-8",
+               "fname":"Whee",
+               "lname":"Kim",
+               "player_id":"37454",
+               "last_update":"7:02 PM",
+               "mv":-22,
+               "marquee":"false"
+            }
+         ],
+         "teeTimeStamp":51000000
+      },
+      {
+         "start_time":"8:00 AM",
+         "group_id":17,
+         "current_hole":"F",
+         "starttee":10,
+         "players":[
+            {
+               "score":"-9",
+               "fname":"Gary",
+               "lname":"Woodland",
+               "player_id":"31323",
+               "last_update":"7:02 PM",
+               "mv":23,
+               "marquee":"false"
+            },
+            {
+               "score":"-8",
+               "fname":"Patrick",
+               "lname":"Reed",
+               "player_id":"34360",
+               "last_update":"7:02 PM",
+               "mv":17,
+               "marquee":"false"
+            },
+            {
+               "score":"-4",
+               "fname":"Rory",
+               "lname":"Sabbatini",
+               "player_id":"23621",
+               "last_update":"7:02 PM",
+               "mv":2,
+               "marquee":"false"
+            }
+         ],
+         "teeTimeStamp":46800000
+      },
+      {
+         "start_time":"7:50 AM",
+         "group_id":16,
+         "current_hole":"F",
+         "starttee":10,
+         "players":[
+            {
+               "score":"-8",
+               "fname":"Russell",
+               "lname":"Henley",
+               "player_id":"34098",
+               "last_update":"7:02 PM",
+               "mv":17,
+               "marquee":"false"
+            },
+            {
+               "score":"-4",
+               "fname":"Russell",
+               "lname":"Knox",
+               "player_id":"33122",
+               "last_update":"7:02 PM",
+               "mv":2,
+               "marquee":"false"
+            },
+            {
+               "score":"E",
+               "fname":"Andrew",
+               "lname":"Landry",
+               "player_id":"33410",
+               "last_update":"7:02 PM",
+               "mv":-19,
+               "marquee":"false"
+            }
+         ],
+         "teeTimeStamp":46200000
+      },
+      {
+         "start_time":"7:30 AM",
+         "group_id":13,
+         "current_hole":"F",
+         "starttee":1,
+         "players":[
+            {
+               "score":"-7",
+               "fname":"Kelly",
+               "lname":"Kraft",
+               "player_id":"35879",
+               "last_update":"7:01 PM",
+               "mv":2,
+               "marquee":"false"
+            },
+            {
+               "score":"-4",
+               "fname":"Brian",
+               "lname":"Gay",
+               "player_id":"19846",
+               "last_update":"7:02 PM",
+               "mv":-7,
+               "marquee":"false"
+            },
+            {
+               "score":"-1",
+               "fname":"Marc",
+               "lname":"Leishman",
+               "player_id":"26851",
+               "last_update":"7:01 PM",
+               "mv":-25,
+               "marquee":"false"
+            }
+         ],
+         "teeTimeStamp":45000000
+      },
+      {
+         "start_time":"8:00 AM",
+         "group_id":10,
+         "current_hole":"F",
+         "starttee":1,
+         "players":[
+            {
+               "score":"-5",
+               "fname":"Jhonattan",
+               "lname":"Vegas",
+               "player_id":"27064",
+               "last_update":"7:02 PM",
+               "mv":-12,
+               "marquee":"false"
+            },
+            {
+               "score":"-3",
+               "fname":"Chris",
+               "lname":"Kirk",
+               "player_id":"30926",
+               "last_update":"7:02 PM",
+               "mv":-24,
+               "marquee":"false"
+            },
+            {
+               "score":"-2",
+               "fname":"Nick",
+               "lname":"Watney",
+               "player_id":"27095",
+               "last_update":"7:02 PM",
+               "mv":-29,
+               "marquee":"false"
+            }
+         ],
+         "teeTimeStamp":46800000
+      },
+      {
+         "start_time":"8:30 AM",
+         "group_id":20,
+         "current_hole":"5",
+         "starttee":10,
+         "players":[
+            {
+               "score":"-5",
+               "fname":"Chesson",
+               "lname":"Hadley",
+               "player_id":"34563",
+               "last_update":"7:02 PM",
+               "mv":18,
+               "marquee":"false"
+            },
+            {
+               "score":"E",
+               "fname":"Charles",
+               "lname":"Howell III",
+               "player_id":"21961",
+               "last_update":"7:02 PM",
+               "mv":-7,
+               "marquee":"false"
+            },
+            {
+               "score":"+2",
+               "fname":"Yusaku",
+               "lname":"Miyazato",
+               "player_id":"23821",
+               "last_update":"7:02 PM",
+               "mv":-12,
+               "marquee":"false"
+            }
+         ],
+         "teeTimeStamp":48600000
+      },
+      {
+         "start_time":"9:10 AM",
+         "group_id":24,
+         "current_hole":"F",
+         "starttee":10,
+         "players":[
+            {
+               "score":"-5",
+               "fname":"Zach",
+               "lname":"Johnson",
+               "player_id":"24024",
+               "last_update":"7:02 PM",
+               "mv":30,
+               "marquee":"false"
+            },
+            {
+               "score":"-1",
+               "fname":"Andrew",
+               "lname":"Dorn",
+               "player_id":"46458",
+               "last_update":"7:02 PM",
+               "mv":8,
+               "marquee":"false"
+            }
+         ],
+         "teeTimeStamp":51000000
+      },
+      {
+         "start_time":"8:10 AM",
+         "group_id":18,
+         "current_hole":"F",
+         "starttee":10,
+         "players":[
+            {
+               "score":"-4",
+               "fname":"John",
+               "lname":"Huh",
+               "player_id":"34174",
+               "last_update":"7:02 PM",
+               "mv":8,
+               "marquee":"false"
+            },
+            {
+               "score":"-3",
+               "fname":"Lucas",
+               "lname":"Glover",
+               "player_id":"25900",
+               "last_update":"7:02 PM",
+               "mv":0,
+               "marquee":"false"
+            },
+            {
+               "score":"-2",
+               "fname":"Abraham",
+               "lname":"Ancer",
+               "player_id":"45526",
+               "last_update":"7:02 PM",
+               "mv":-5,
+               "marquee":"false"
+            }
+         ],
+         "teeTimeStamp":47400000
+      },
+      {
+         "start_time":"8:40 AM",
+         "group_id":21,
+         "current_hole":"F",
+         "starttee":10,
+         "players":[
+            {
+               "score":"-4",
+               "fname":"Kevin",
+               "lname":"Streelman",
+               "player_id":"27214",
+               "last_update":"7:02 PM",
+               "mv":14,
+               "marquee":"false"
+            },
+            {
+               "score":"+1",
+               "fname":"Vijay",
+               "lname":"Singh",
+               "player_id":"06567",
+               "last_update":"7:02 PM",
+               "mv":-11,
+               "marquee":"false"
+            },
+            {
+               "score":"+2",
+               "fname":"Brian",
+               "lname":"Stuard",
+               "player_id":"31560",
+               "last_update":"7:02 PM",
+               "mv":-12,
+               "marquee":"false"
+            }
+         ],
+         "teeTimeStamp":49200000
+      },
+      {
+         "start_time":"9:00 AM",
+         "group_id":23,
+         "current_hole":"F",
+         "starttee":10,
+         "players":[
+            {
+               "score":"-4",
+               "fname":"Bubba",
+               "lname":"Watson",
+               "player_id":"25804",
+               "last_update":"7:02 PM",
+               "mv":20,
+               "marquee":"false"
+            },
+            {
+               "score":"-2",
+               "fname":"Sung",
+               "lname":"Kang",
+               "player_id":"27974",
+               "last_update":"7:02 PM",
+               "mv":7,
+               "marquee":"false"
+            },
+            {
+               "score":"E",
+               "fname":"Ollie",
+               "lname":"Schniederjans",
+               "player_id":"46501",
+               "last_update":"7:02 PM",
+               "mv":-1,
+               "marquee":"false"
+            }
+         ],
+         "teeTimeStamp":50400000
+      },
+      {
+         "start_time":"8:50 AM",
+         "group_id":22,
+         "current_hole":"F",
+         "starttee":10,
+         "players":[
+            {
+               "score":"-3",
+               "fname":"Shane",
+               "lname":"Lowry",
+               "player_id":"33204",
+               "last_update":"7:02 PM",
+               "mv":12,
+               "marquee":"false"
+            },
+            {
+               "score":"-2",
+               "fname":"Ted",
+               "lname":"Potter, Jr.",
+               "player_id":"27556",
+               "last_update":"7:02 PM",
+               "mv":7,
+               "marquee":"false"
+            },
+            {
+               "score":"-1",
+               "fname":"Brice",
+               "lname":"Garnett",
+               "player_id":"29535",
+               "last_update":"7:02 PM",
+               "mv":2,
+               "marquee":"false"
+            }
+         ],
+         "teeTimeStamp":49800000
+      },
+      {
+         "start_time":"9:20 AM",
+         "group_id":25,
+         "current_hole":"F",
+         "starttee":10,
+         "players":[
+            {
+               "score":"E",
+               "fname":"Kevin",
+               "lname":"Tway",
+               "player_id":"32333",
+               "last_update":"7:02 PM",
+               "mv":5,
+               "marquee":"false"
+            },
+            {
+               "score":"+2",
+               "fname":"Pat",
+               "lname":"Perez",
+               "player_id":"24361",
+               "last_update":"7:02 PM",
+               "mv":0,
+               "marquee":"false"
+            }
+         ],
+         "teeTimeStamp":51600000
+      }
+   ]
+}
