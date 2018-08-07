@@ -52,10 +52,12 @@ body {
 .card-header h2 {
     font-size: 1.125rem;
     color: #002855;
+    align-self: center;
 }
 .card-header h3 {
     color: #4D4847;
     font-size: 0.625rem;
+    align-self: center;
 }
 /* list of players */
 .card-players {
