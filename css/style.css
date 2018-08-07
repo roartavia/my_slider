@@ -41,24 +41,21 @@ body {
 }
 /* card hole and description */
 .card-header {
-    position: relative;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
     height: 34px;
     border-bottom: solid 1px #e8e6e6;
+    justify-content: space-between;
+    padding: 0 15px;
 }
 .card-header h2 {
     font-size: 1.125rem;
-    align-self: center;
-    position: absolute;
     color: #002855;
-    left: 14px;
 }
 .card-header h3 {
     color: #4D4847;
     font-size: 0.625rem;
-    align-self: center;
-    position: absolute;
-    right: 14px;
 }
 /* list of players */
 .card-players {

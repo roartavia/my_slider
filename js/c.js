@@ -5,6 +5,8 @@ $( document ).ready(function() {
     $.ajax({
         type:'GET',
         url: config,
+        dataType :"json",
+        crossDomain: true,
         success: function(data) {
             var locator = data.endpoints.playerlocator.url;
             var courseInfoJson = data.endpoints.course.url;
@@ -13,9 +15,7 @@ $( document ).ready(function() {
         },
         error: function(jqXHR, textStatus, errorThrown) {
             alert('Failed loading content, please try later.')
-        },
-        contentType: "application/json",
-        dataType: 'json'
+        }
     });
 });
 
@@ -59,7 +59,6 @@ function buildPlayers(locatorURL) {
         error: function(jqXHR, textStatus, errorThrown) {
             alert('Failed loading the players information, please try later.')
         },
-        contentType: "application/json",
         dataType: 'json'
     });
 }
@@ -79,7 +78,6 @@ function setInfoHolesCards(courseURL, locator) {
                 var newCardHeader = "<div class='card-header'><h2>" + holeNum + "</h2><h3>" + yardsPar + "</h3></div>";
                 var newPlayersContainer = $('<div id="card' + hole.hole_number + '" class="card-players"/>');
                 var noPlayersLabel = '<div class="no-players"><span>No Players Currently on Hole</span></div>';
-
                 newPlayersContainer.append(noPlayersLabel);
                 newCard.append(newCardHeader);
                 newCard.append(newPlayersContainer);
@@ -116,7 +114,6 @@ function setInfoHolesCards(courseURL, locator) {
         error: function(jqXHR, textStatus, errorThrown) {
             alert('Failed loading the course information, please try later.')
         },
-        contentType: "application/json",
         dataType: 'json'
     });
     $('.slider-nav').on("afterChange", function (){
